@@ -1,0 +1,44 @@
+Data dictionary
+
+This notebook uses a file called education_districtwise.csv. This dataset represents a list of school districts in an anonymous country. The data includes district and state names, total population, and the literacy rate.
+
+The dataset contains:
+
+680 rows – each row is a different school district
+
+7 columns:
+
+DISTNAME
+str
+The names of an anonymous country’s school districts
+
+STATNAME
+str
+The names of an anonymous country’s states where school districts are located
+
+BLOCKS
+int64
+The number of blocks in the school district. Blocks are the smallest organizational structure in the education system of the anonymous country.
+
+VILLAGES
+int64
+column shows how many villages are in each district
+
+CLUSTERS
+int64
+The number of clusters in the school district. Clusters are the second smallest organizational structure in the education system of the anonymous country.
+
+TOTPOPULAT
+int64
+column shows the population for each district
+
+OVERALL_LI
+int64
+shows the literacy rate for each district
+
+Note: The data in this project was derived from this data set on Kaggle. However, it has been modified for pedagogical purposes. 
+
+Remember, you can access and download the data for any Jupyter notebook activity from within the notebook itself by navigating to the Lab Files dropdown menu at the top of the page, clicking into the /home/jovyan/work folder,  selecting the relevant data file, and clicking Download.
+
+Set up a split screen
+While watching the videos that follow this notebook, you may find it helpful to track the instructor’s progress by following along in your own Jupyter Notebook. It can be helpful to review the code notebook alongside the video, especially if you’re new to coding in Python. 

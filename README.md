@@ -1,0 +1,77 @@
+# Data Analysis Project
+
+This project is a starter template for a Python-based data analysis workflow.
+
+## Project structure
+
+- `data/` - raw and processed datasets
+- `notebooks/` - Jupyter notebooks for exploratory analysis
+- `src/` - Python scripts for analysis, cleaning, and modeling
+- `requirements.txt` - package list
+
+## 1) Create a virtual environment
+
+Open PowerShell in the project folder and run:
+
+```powershell
+cd "c:\Users\bardo\Github\Advance Analytics"
+py -3.11 -m venv .venv
+```
+
+Activate the environment:
+
+```powershell
+# PowerShell
+.\.venv\Scripts\Activate.ps1
+```
+
+If you are using Command Prompt:
+
+```cmd
+cd /d "c:\Users\bardo\Github\Advance Analytics"
+.venv\Scripts\activate.bat
+```
+
+## 2) Upgrade pip and install packages
+
+```powershell
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+## 3) Optional: install Jupyter separately
+
+```powershell
+pip install jupyterlab
+```
+
+## 4) Start working
+
+Create a notebook or run scripts from the `src` folder:
+
+```powershell
+jupyter lab
+```
+
+## 5) Useful packages included
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyter
+- openpyxl
+
+## 6) Example workflow
+
+1. Place your CSV or Excel file in `data/`
+2. Create a notebook in `notebooks/`
+3. Clean and analyze data in Python
+4. Save charts and processed results in `data/` or `results/`
+
+## 7) Deactivate the environment
+
+```powershell
+deactivate
+```
