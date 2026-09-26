@@ -84,5 +84,12 @@ git add .
 git commit -m "Initial project setup"
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-# git remote set-url origin https://github.com/BardoSal/GoogleAdvancedAnalytics.git
 git push -u origin main
+
+To sync files in other laptop 
+
+git status
+git pull origin main
+
+git fetch origin
+git checkout your-branch-name
