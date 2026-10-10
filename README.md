@@ -23,6 +23,7 @@ Activate the environment:
 ```powershell
 # PowerShell
 .\.venv\Scripts\Activate.ps1
+# source .venv/bin/activate # for Mac
 ```
 
 If you are using Command Prompt:
@@ -39,11 +40,6 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## 3) Optional: install Jupyter separately
-
-```powershell
-pip install jupyterlab
-```
 
 ## 4) Start working
 
